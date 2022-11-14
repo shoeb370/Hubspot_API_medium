@@ -47,3 +47,5 @@ try:
         list_id.append(api_response.id)
 except ApiException as e:
     print("Exception when creating contact: %s\n" % e)
+
+print(list_id)
