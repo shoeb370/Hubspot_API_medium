@@ -44,6 +44,6 @@ try:
          )
         print(api_response)
         store_api_response_companies = api_response
-        list_id.append(api_response)
+        list_id.append(api_response.id)
 except ApiException as e:
     print("Exception when creating contact: %s\n" % e)
